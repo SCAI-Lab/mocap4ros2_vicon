@@ -32,9 +32,7 @@ cp mocap4ros2_vicon/mocap4ros2.rosinstall .rosinstall
 wstool update
 
 ## For ROS Galactic or Foxy only, copy Humble's tf2_geometry_msgs.hpp replacing tf2_geometry_msgs.h
-```
 sudo cp tf2_geometry_msgs.hpp.copy /opt/ros/galactic/include/tf2_geometry_msgs/tf2_geometry_msgs.hpp
-```
 
 ## manage ros2 dependencies for our workspace
 # rosdep init may not be needed
